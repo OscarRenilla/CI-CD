@@ -10,7 +10,7 @@ paths:
   /health:
     get:
       operationId: getHealth
-      summary: Salud del proceso
+      # summary: Salud del proceso
       responses:
         '200': { description: OK }
   /ready:
