@@ -1,7 +1,6 @@
 function validateTitle(title) {
   if (typeof title !== 'string' || !title.trim()) {
     const error = new Error('title debe ser texto no vacío');
-    const variableSinUsar = 123;
     error.status = 400;
     throw error;
   }
