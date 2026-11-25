@@ -9,7 +9,7 @@ servers:
 paths:
   /health:
     get:
-      operationId: getHealth
+      # operationId: getHealth
       summary: Salud del proceso
       responses:
         '200': { description: OK }
